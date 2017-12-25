@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="TH-th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css.css">
+    <title>Burnyourself</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark eng">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                <a class="navbar-brand" href="#">
+                    <img src="img/bicycle(1).png" width="30" height="30" class="d-inline-block align-top">
+                    BURN YOUR SELF . . .
+                </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" action="index.html">
+                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">REGISTER</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 box eng">
+            <form action="check-login.php" method="post">
+                <div class="form-group">
+                    <label for="name">Username:</label>
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" name="pwd">
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-success">Login</button>
+            </form>
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+    </div>
+</body>
+</html>
